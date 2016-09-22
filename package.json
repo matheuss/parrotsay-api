@@ -2,7 +2,7 @@
   "name": "parrotsay-api",
   "version": "0.1.0",
   "description": "An API to say things with the Party Parrot",
-  "main": "index.js",
+  "main": "dist/index.js",
   "files": [
     "dist"
   ],
