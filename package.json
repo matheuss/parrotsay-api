@@ -1,0 +1,54 @@
+{
+  "name": "parrotsay-api",
+  "version": "0.1.0",
+  "description": "An API to say things with the Pary Parrot",
+  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheuss/parrotsay-api.git"
+  },
+  "keywords": [
+    "party",
+    "parrot",
+    "partyparrot",
+    "party-parrot",
+    "party_parrot",
+    "api",
+    "parrotsay",
+    "parrotsay-api"
+  ],
+  "author": "Matheus Fernandes <npm@matheus.top> (https://matheus.top/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheuss/parrotsay-api/issues"
+  },
+  "homepage": "https://github.com/matheuss/parrotsay-api#readme",
+  "devDependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.14.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cached": "^1.1.0",
+    "xo": "^0.16.0"
+  },
+  "babel": {
+    "plugins": [
+      "add-module-exports",
+      "transform-es2015-modules-commonjs"
+    ]
+  },
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "semicolon": false
+  },
+  "dependencies": {
+    "boxen": "^0.8.1"
+  }
+}
