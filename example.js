@@ -1,6 +1,6 @@
 // example.js
 const parrotSay = require('./dist')
 
-parrotSay('yaaay')
+parrotSay('yaaay','random')
   .then(console.log)
   .catch(console.error)

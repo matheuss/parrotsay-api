@@ -5,7 +5,14 @@
 ```
 npm install --save parrotsay-api
 ```
+## Compile
 
+Using node@v5
+
+```
+npm install -g gulp@3.9.0
+gulp
+```
 ## Usage
 
 ```js
